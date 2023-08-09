@@ -1,0 +1,23 @@
+.header__btn {
+  @include btn(1.3rem, 1.5rem, 10px, 10px, 100%, 220px, $white-color);
+  text-align: center;
+  border-radius: 2.4rem;
+  font-weight: 700;
+  color: $dark-green-color;
+}
+
+.hero__btn {
+  @include btn(1.7rem, 2rem, 10px, 10px, 100%, 300px, $pink-color);
+  text-align: center;
+  border-radius: 2.4rem;
+  font-weight: 700;
+  color: $white-color;
+}
+
+.features__btn {
+  @include btn(2.5rem, 2.5rem, 10px, 10px, 100%, 420px, $pink-color);
+  text-align: center;
+  border-radius: 4rem;
+  font-weight: 700;
+  color: $white-color;
+}
